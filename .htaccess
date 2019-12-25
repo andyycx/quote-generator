@@ -1,1 +1,3 @@
 DirectoryIndex home.html
+
+redirectMatch 301 ^(.*)\.html $1
