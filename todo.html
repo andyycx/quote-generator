@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="has-background-info">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eba's To Do List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title has-text-centered has-text-weight-bold is-size-1 has-text-white-bis" style="margin-top: 150px">
+        Eba's To Do List
+    </h1>
+    <div class="columns is-centered">
+        <div class="column is-one-quarter"></div>
+        <div class="column is-half">
+            <input class="input is-rounded is-size-6" type="text" id="myInput" placeholder="Eba needs to..." maxlength="90">
+        </div>
+        <div class="column is-one-quarter">
+            <button class="button is-rounded is-size-6" onclick="newElement()" class="addBtn">Add task</span>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column"></div>
+        <div class="column">
+            <ul id="myUL" class="has-text-centered has-text-white-bis is-size-4 has-background-danger">
+            </ul>
+        </div>
+        <div class="column"></div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
