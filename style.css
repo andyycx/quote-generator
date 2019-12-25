@@ -1,0 +1,17 @@
+ul {
+    width: 1400px;
+    border-radius: 25px;
+    /* table-layout: fixed; */
+}
+
+.delete {
+    margin-top: 10px;
+    float: right;
+    margin-right: 30px;
+}
+
+.has-bg-img { 
+    background-image: url("assets/paris.jpg"); 
+    background-size: cover; 
+}
+
